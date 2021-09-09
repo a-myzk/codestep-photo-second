@@ -27,6 +27,9 @@ img {
   margin-bottom: 30px;
   text-align: center;
 }
+ul {
+  list-style: none;
+}
 
 /* header
 ------------------------------------------- */
@@ -68,4 +71,17 @@ img {
 #index .index-inner
 .index-list li:last-child {
   margin-bottom: 0;
+}
+
+/* 画像エリア
+------------------------------------------- */
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 30px 0 45px 0;
+}
+.list li {
+  width: 49%;
+  margin-bottom: 15px;
 }
