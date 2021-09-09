@@ -128,3 +128,48 @@ ul {
   padding: 15px 0;
   text-align: center;
 }
+
+/* メディアクエリ
+------------------------------------------- */
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 20px;
+  }
+  /* header
+  ------------------------------------------- */
+  #header {
+    padding: 0 10px;
+  }
+
+  /* index
+  ------------------------------------------- */
+  #index {
+    padding: 40px 20px;
+  }
+
+  /* 画像エリア
+  ------------------------------------------- */
+  .list li {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* detail
+  ------------------------------------------- */
+  #detail {
+    padding: 40px 20px;
+  }
+  #detail .detail-contents {
+    flex-direction: column;
+  }
+  #detail dl {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px #333;
+    padding: 0 0 40px 0;
+  }
+  #detail .detail-text {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+}
